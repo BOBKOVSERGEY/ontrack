@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=Te2j1c8QCdU&list=PL-FhWbGlJPfaCm9Qx7G9wQqtt2_yBT92V&index=17
+https://www.youtube.com/watch?v=o8dgwZOa08E&list=PL-FhWbGlJPfaCm9Qx7G9wQqtt2_yBT92V&index=20
 # install
 npm init vue@latest
 
