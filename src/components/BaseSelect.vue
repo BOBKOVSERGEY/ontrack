@@ -1,14 +1,13 @@
 <script setup>
 import BaseButton from "@/components/BaseButton.vue";
 import { XMarkIcon } from "@heroicons/vue/24/outline";
+import { validateSelectOptions } from "@/validator";
 
 defineProps({
   options: {
     type: Array,
     required: true,
-    validator(options) {
-      return options.every(({ value, label }) => typeof value === 'number' && typeof label === 'string')
-    }
+    validator: validateSelectOptions
   },
   selected: Number,
   placeholder: {
